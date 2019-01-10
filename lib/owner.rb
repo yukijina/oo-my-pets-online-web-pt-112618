@@ -75,7 +75,7 @@ class Owner
   end 
   
   def list_pets
-    binding.pry
+    #binding.pry
     count = []
     self.pets.each do |type, pet|
       count << pet.count
