@@ -75,6 +75,7 @@ class Owner
   end 
   
   def list_pets
+    binding.pry
     self.pets.each do |type, pet|
       pet.each do |pet_string|
         
