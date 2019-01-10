@@ -79,9 +79,8 @@ class Owner
     count = []
     self.pets.each do |type, pet|
       count << pet.count
-        
-      end 
     end 
+    
   end 
   
 end
