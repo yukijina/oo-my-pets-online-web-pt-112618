@@ -78,7 +78,7 @@ class Owner
     binding.pry
     count = []
     self.pets.each do |type, pet|
-      pet.count
+      count << pet.count
         
       end 
     end 
