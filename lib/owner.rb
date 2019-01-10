@@ -77,6 +77,8 @@ class Owner
   def list_pets
     self.pets.each do |type, pet|
       pet.each do |pet_string|
+        
+      end 
     end 
   end 
   
