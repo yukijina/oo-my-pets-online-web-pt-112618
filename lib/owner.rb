@@ -80,6 +80,7 @@ class Owner
     self.pets.each do |type, pet|
       count << pet.count
     end 
+    "I have #{count[0]} fish, #{count[2]} dog(s), and #{count[1]} cat(s)."
     
   end 
   
